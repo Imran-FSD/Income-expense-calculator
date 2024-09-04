@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:honeydew ;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+}
+
+input:hover, select:hover, button:hover {
+    border-color: #888; 
+}
+
+button {
+    background-color: indianred;
+    color: #fff; 
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Arial', sans-serif; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.filters {
+    margin-bottom: 20px;
+    background-color: #f9f9f9; 
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.filters label {
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.summary {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #fff; 
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li:hover {
+    background-color: #f1f1f1; 
+}
+
+button.edit, button.delete {
+    margin-left: 5px;
+    background-color: #28a745; 
+    color: #fff;
+    border-radius: 4px; 
+}
+
+button.edit:hover {
+    background-color: #218838; 
+}
+
+button.delete {
+    background-color: #dc3545; 
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
